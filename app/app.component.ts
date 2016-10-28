@@ -8,10 +8,6 @@ export class Hero {
 }
 @Component({
     selector: 'my-app',
-    /*template: '<h1>My name is {{name}}</h1>' +
-    '<input type="text" [value]="name" (input)="name = $event.target.value" [placeholder]="firstNamePlaceholder"/>' +
-    '<input type="text" [value]="name" (input)="name = $event.target.value" [placeholder]="firstNamePlaceholder"/>' +
-    '<button (click)="dosomething($event)">click me</button> '*/
     template: `<h1>{{title}}</h1>
                <h2>{{hero.name}} details</h2>
                <div>
