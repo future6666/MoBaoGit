@@ -9,7 +9,7 @@ export class Hero {
 @Component({
     selector: 'my-app',
     template: `<my-header></my-header>
-    <div></div>
+                <router-outlet></router-outlet>
                 <my-footer></my-footer>
                 `
 
