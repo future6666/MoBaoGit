@@ -6,20 +6,17 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 var core_1 = require('@angular/core');
-var TemplateIndex = (function () {
-    function TemplateIndex() {
+var Tcomponent = (function () {
+    function Tcomponent() {
     }
-    TemplateIndex = __decorate([
+    Tcomponent = __decorate([
         core_1.Component({
             moduleId: module.id,
             selector: 'template-index',
             templateUrl: './template-index.component.html'
         })
-    ], TemplateIndex);
-    return TemplateIndex;
+    ], Tcomponent);
+    return Tcomponent;
 }());
-exports.TemplateIndex = TemplateIndex;
-component;
-{
-}
+exports.Tcomponent = Tcomponent;
 //# sourceMappingURL=template-index.component.js.map
