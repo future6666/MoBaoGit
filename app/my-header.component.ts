@@ -47,7 +47,7 @@ import {Component} from '@angular/core';
       </ul>
     </div>
     </span>
-    <span class="btn-group col-md-1">
+    <span class="btn-group col-md-2">
     <a class="dropdown-toggle" data-toggle="dropdown">微信公众号<span class="caret"></span></a>
     <div class="dropdown-menu ta-mid" role="menu">
       <img src="../images/qrcode.png" alt="" class="qrcode">
@@ -63,3 +63,6 @@ import {Component} from '@angular/core';
   </div>
   </div>`
 })
+export class MyHeaderComponent {
+
+}

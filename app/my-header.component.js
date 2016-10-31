@@ -1,0 +1,25 @@
+"use strict";
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+var core_1 = require('@angular/core');
+var MyHeaderComponent = (function () {
+    function MyHeaderComponent() {
+    }
+    MyHeaderComponent = __decorate([
+        core_1.Component({
+            selector: 'my-header',
+            template: "<div class=\"top\">\n    <div class=\"warrper\">\n      <span class=\"fl col-md-2\">\u60A8\u6240\u5728\u7684\u4F4D\u7F6E\uFF1A<div class=\"btn-group\">\n      <a class=\"dropdown-toggle\" data-toggle=\"dropdown\">\u4E1C\u839E<span class=\"caret\"></span></a>\n      <ul class=\"dropdown-menu location\" role=\"menu\">\n        <li><a href=\"javascript:(0)\" class=\"on\">\u5317\u4EAC</a></li>\n        <li><a href=\"javascript:(0)\">\u4E0A\u6D77</a></li>\n        <li><a href=\"javascript:(0)\">\u5929\u6D25</a></li>\n        <li><a href=\"javascript:(0)\">\u91CD\u5E86</a></li>\n        <li><a href=\"javascript:(0)\">\u6CB3\u5317</a></li>\n        <li><a href=\"javascript:(0)\">\u5C71\u897F</a></li>\n        <li><a href=\"javascript:(0)\">\u6CB3\u5357</a></li>\n        <li><a href=\"javascript:(0)\">\u8FBD\u5B81</a></li>\n        <li><a href=\"javascript:(0)\">\u5409\u6797</a></li>\n        <li><a href=\"javascript:(0)\">\u9ED1\u9F99</a></li>\n        <li><a href=\"javascript:(0)\">\u6C5F\u5185</a></li>\n        <li><a href=\"javascript:(0)\">\u8499\u53E4</a></li>\n        <li><a href=\"javascript:(0)\">\u6C5F\u82CF</a></li>\n        <li><a href=\"javascript:(0)\">\u5C71\u4E1C</a></li>\n        <li><a href=\"javascript:(0)\">\u5B89\u5FBD</a></li>\n        <li><a href=\"javascript:(0)\">\u6D59\u6C5F</a></li>\n        <li><a href=\"javascript:(0)\">\u798F\u5EFA</a></li>\n        <li><a href=\"javascript:(0)\">\u6E56\u5317</a></li>\n        <li><a href=\"javascript:(0)\">\u6E56\u5357</a></li>\n        <li><a href=\"javascript:(0)\">\u5E7F\u4E1C</a></li>\n        <li><a href=\"javascript:(0)\">\u5E7F\u897F</a></li>\n        <li><a href=\"javascript:(0)\">\u6C5F\u897F</a></li>\n        <li><a href=\"javascript:(0)\">\u56DB\u5DDD</a></li>\n        <li><a href=\"javascript:(0)\">\u6D77\u5357</a></li>\n        <li><a href=\"javascript:(0)\">\u8D35\u5DDE</a></li>\n        <li><a href=\"javascript:(0)\">\u4E91\u5357</a></li>\n        <li><a href=\"javascript:(0)\">\u897F\u85CF</a></li>\n        <li><a href=\"javascript:(0)\">\u9655\u897F</a></li>\n        <li><a href=\"javascript:(0)\">\u7518\u8083</a></li>\n        <li><a href=\"javascript:(0)\">\u9752\u6D77</a></li>\n        <li><a href=\"javascript:(0)\">\u5B81\u590F</a></li>\n        <li><a href=\"javascript:(0)\">\u65B0\u7586</a></li>\n        <li><a href=\"javascript:(0)\">\u53F0\u6E7E</a></li>\n        <li><a href=\"javascript:(0)\">\u9999\u6E2F</a></li>\n        <li><a href=\"javascript:(0)\">\u6FB3\u95E8</a></li>\n        <li><a href=\"javascript:(0)\">\u9493\u9C7C</a></li>\n        <li><a href=\"javascript:(0)\">\u5C9B\u6D77\u5916</a></li>\n      </ul>\n    </div>\n    </span>\n    <span class=\"btn-group col-md-2\">\n    <a class=\"dropdown-toggle\" data-toggle=\"dropdown\">\u5FAE\u4FE1\u516C\u4F17\u53F7<span class=\"caret\"></span></a>\n    <div class=\"dropdown-menu ta-mid\" role=\"menu\">\n      <img src=\"../images/qrcode.png\" alt=\"\" class=\"qrcode\">\n    </div>\n    </span>\n    <span class=\"fr col-md-5\">\n      <a href=\"#\" class=\"favourite col-md-3 ta-mid\"><i class=\"glyphicon glyphicon-heart\" style=\"margin-right:5px\"></i>\u6211\u7684\u6536\u85CF</a>\n      <a href=\"#\" class=\"my-order col-md-3 ta-mid\"><i class=\"glyphicon glyphicon-list-alt\" style=\"margin-right:5px\"></i>\u6211\u7684\u8BA2\u5355</a>\n      <a href=\"#\" class=\"login col-md-2 ta-mid\"><i class=\"glyphicon glyphicon-user\" style=\"margin-right:5px\"></i>\u767B\u5F55</a>\n      <a href=\"#\" class=\"reg col-md-2 ta-mid\"><i class=\"glyphicon glyphicon-edit\" style=\"margin-right:5px\"></i>\u6CE8\u518C</a>\n      <a href=\"#\" class=\"favourite col-md-2 ta-mid\" id=\"search\"><i class=\"glyphicon glyphicon-search\" style=\"margin-right:5px\"></i>\u641C\u7D22</a>\n    </span>\n  </div>\n  </div>"
+        }), 
+        __metadata('design:paramtypes', [])
+    ], MyHeaderComponent);
+    return MyHeaderComponent;
+}());
+exports.MyHeaderComponent = MyHeaderComponent;
+//# sourceMappingURL=my-header.component.js.map

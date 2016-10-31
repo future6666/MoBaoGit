@@ -20,22 +20,11 @@ var Hero = (function () {
 exports.Hero = Hero;
 var AppComponent = (function () {
     function AppComponent() {
-        /*name: string = 'Miccy';
-        firstName: string = 'Ma';
-        firstNamePlaceholder: string = 'unknown';
-        dosomething($event) {
-            console.log($event);
-        }*/
-        this.title = 'Tour of Heroes';
-        this.hero = {
-            id: 1,
-            name: 'windstrom'
-        };
     }
     AppComponent = __decorate([
         core_1.Component({
             selector: 'my-app',
-            template: "<h1>{{title}}</h1>\n               <h2>{{hero.name}} details</h2>\n               <div>\n                <label>id:</label>\n                <input type=\"text\" value=\"{{hero.id}}\"/>\n               </div>\n               <div>\n                <label>name:</label>\n                <input type=\"text\" [(ngModel)]=\"hero.name\" placeholder=\"name\"/>\n               </div>"
+            template: "<my-header></my-header>\n    <div></div>\n                <my-footer></my-footer>\n                "
         }), 
         __metadata('design:paramtypes', [])
     ], AppComponent);
