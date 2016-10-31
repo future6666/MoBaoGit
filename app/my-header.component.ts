@@ -61,7 +61,8 @@ import {Component} from '@angular/core';
       <a href="#" class="favourite col-md-2 ta-mid" id="search"><i class="glyphicon glyphicon-search" style="margin-right:5px"></i>搜索</a>
     </span>
   </div>
-  </div>`
+  </div>
+`
 })
 export class MyHeaderComponent {
 

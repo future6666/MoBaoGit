@@ -14,6 +14,8 @@ var forms_1 = require('@angular/forms'); //为了让表单输入支持双向数�
 var app_component_1 = require('./app.component');
 var my_header_component_1 = require('./my-header.component');
 var my_footer_component_1 = require('./my-footer.component');
+var my_index_logo_component_1 = require('./my-index-logo.component');
+var main_index_component_1 = require('./main/main-index.component');
 var AppModule = (function () {
     function AppModule() {
     }
@@ -26,7 +28,9 @@ var AppModule = (function () {
             declarations: [
                 app_component_1.AppComponent,
                 my_header_component_1.MyHeaderComponent,
-                my_footer_component_1.MyFooterComponent
+                my_footer_component_1.MyFooterComponent,
+                my_index_logo_component_1.MyIndexLogoComponent,
+                main_index_component_1.MainIndexComponent
             ],
             bootstrap: [app_component_1.AppComponent]
         }), 

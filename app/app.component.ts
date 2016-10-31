@@ -9,8 +9,9 @@ export class Hero {
 @Component({
     selector: 'my-app',
     template: `<my-header></my-header>
-    <div></div>
-                <my-footer></my-footer>
+               <my-index-logo></my-index-logo>
+               <main-index></main-index>
+               <my-footer></my-footer>
                 `
 
 })

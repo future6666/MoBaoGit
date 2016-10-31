@@ -53,6 +53,23 @@ import {Component} from '@angular/core';
     <div class="qrcode fl" style="margin-top:25px"><img src="images/qrcode.png"></div>
     <div class="qrcode fr" style="margin-top:25px"><img src="images/qrcode.png"></div>
     </div>
+  </div>
+  <div class="copyright">
+    <div class="warrper">
+      <p>版权所有：深圳市前海摩根数字科技有限公司 联系电话：xxx-xxxx-xxx
+        <br/> 备案号：粤icp备XXXXXXX号-1 电信增值业务许可证：粤ICP证XXXXXX号 粤公网安备 XXXXXXXXXXXXXX号</p>
+    </div>
+  </div>
+  <div class="Telescopic">
+    <div class="float_nav">
+      <a href="javascript:;" id="1_floor">1F<span>服饰</span></a>
+      <a href="javascript:;" id="2_floor">2F<span>服饰</span></a>
+      <a href="javascript:;" id="3_floor">3F<span>服饰</span></a>
+      <a href="javascript:;" id="4_floor">4F<span>服饰</span></a>
+      <a href="javascript:;" id="5_floor">5F<span>服饰</span></a>
+      <a href="javascript:;" id="6_floor">6F<span>服饰</span></a>
+      <a href="javascript:;" class="return_top">Top<span>顶部</span></a>
+    </div>
   </div>`
 })
 export class MyFooterComponent {

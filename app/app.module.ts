@@ -7,6 +7,8 @@ import { FormsModule}    from '@angular/forms';//为了让表单输入支持双�
 import { AppComponent }   from './app.component';
 import { MyHeaderComponent } from './my-header.component';
 import { MyFooterComponent } from './my-footer.component';
+import { MyIndexLogoComponent} from './my-index-logo.component';
+import { MainIndexComponent} from './main/main-index.component';
 
 @NgModule({
     imports:      [
@@ -16,7 +18,9 @@ import { MyFooterComponent } from './my-footer.component';
     declarations: [
         AppComponent,
         MyHeaderComponent,
-        MyFooterComponent
+        MyFooterComponent,
+        MyIndexLogoComponent,
+        MainIndexComponent
     ],
     bootstrap:    [ AppComponent ]
 })
