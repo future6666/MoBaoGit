@@ -116,7 +116,7 @@ box-shadow:0 0 1px #555;
 .tip.sale{background:#00a0e9}
 .tip.free{background:#84ccc9}
 
-.footer {width:1230px;height:auto;overflow:hidden;margin:0 auto}
+.footer {width:100%;height:auto;overflow:hidden;margin:0 auto}
 .footer dl{width:130px;height:auto;padding:25px 0}
 .footer dt,.footer dd{width:100%;height:auto;line-height:35px}
 .footer dt{font-size:1.8rem;font-weight:300;color:#e46714}
