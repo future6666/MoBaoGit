@@ -6,17 +6,17 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 var core_1 = require('@angular/core');
-var MainDetailComponent = (function () {
-    function MainDetailComponent() {
+var Tcomponent = (function () {
+    function Tcomponent() {
     }
-    MainDetailComponent = __decorate([
+    Tcomponent = __decorate([
         core_1.Component({
             moduleId: module.id,
-            selector: 'main-detail',
-            templateUrl: './main-detail.component.html'
+            selector: 'template-index',
+            templateUrl: './template-index.component.html'
         })
-    ], MainDetailComponent);
-    return MainDetailComponent;
+    ], Tcomponent);
+    return Tcomponent;
 }());
-exports.MainDetailComponent = MainDetailComponent;
-//# sourceMappingURL=main-detail.component.js.map
+exports.Tcomponent = Tcomponent;
+//# sourceMappingURL=template-index.component.js.map
