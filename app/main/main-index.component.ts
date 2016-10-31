@@ -6,6 +6,6 @@ import { Component } from '@angular/core';
     templateUrl: './main-index.component.html'
 })
 
-export class CenterBusinessComponent {
+export class MainIndexComponent {
 
 }

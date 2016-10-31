@@ -12,18 +12,18 @@ var __metadata = (this && this.__metadata) || function (k, v) {
  * Created by Administrator on 2016/10/28.
  */
 var core_1 = require('@angular/core');
-var CenterBusinessComponent = (function () {
-    function CenterBusinessComponent() {
+var MemberBusinessComponent = (function () {
+    function MemberBusinessComponent() {
     }
-    CenterBusinessComponent = __decorate([
+    MemberBusinessComponent = __decorate([
         core_1.Component({
             moduleId: module.id,
-            selector: 'center-business',
+            selector: 'member-business',
             templateUrl: 'member-business.component.html'
         }), 
         __metadata('design:paramtypes', [])
-    ], CenterBusinessComponent);
-    return CenterBusinessComponent;
+    ], MemberBusinessComponent);
+    return MemberBusinessComponent;
 }());
-exports.CenterBusinessComponent = CenterBusinessComponent;
-//# sourceMappingURL=center-business.component.js.map
+exports.MemberBusinessComponent = MemberBusinessComponent;
+//# sourceMappingURL=member-business.component.js.map
