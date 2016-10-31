@@ -6,6 +6,6 @@ import { Component } from '@angular/core';
     templateUrl: './template-index.component.html'
 })
 
-export class Tcomponent {
+export class TemplateIndex.component {
 
 }
