@@ -5,10 +5,10 @@ import { Component } from '@angular/core';
 
 @Component({
     moduleId: module.id,
-    selector: 'center-business',
-    templateUrl: './center-business.component.html'
+    selector: 'member-business',
+    templateUrl: 'member-business.component.html'
 })
 
-export class CenterBusinessComponent {
+export class MemberBusinessComponent {
 
 }

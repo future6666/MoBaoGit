@@ -19,7 +19,7 @@ var CenterBusinessComponent = (function () {
         core_1.Component({
             moduleId: module.id,
             selector: 'center-business',
-            templateUrl: './center-business.component.html'
+            templateUrl: 'member-business.component.html'
         }), 
         __metadata('design:paramtypes', [])
     ], CenterBusinessComponent);
