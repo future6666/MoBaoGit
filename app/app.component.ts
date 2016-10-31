@@ -1,6 +1,4 @@
-/**
- * Created by Administrator on 2016/10/10.
- */
+
 import { Component } from '@angular/core';
 export class Hero {
     id: number;
@@ -8,16 +6,7 @@ export class Hero {
 }
 @Component({
     selector: 'my-app',
-    template: `<h1>{{title}}</h1>
-               <h2>{{hero.name}} details</h2>
-               <div>
-                <label>id:</label>
-                <input type="text" value="{{hero.id}}"/>
-               </div>
-               <div>
-                <label>name:</label>
-                <input type="text" [(ngModel)]="hero.name" placeholder="name"/>
-               </div>`
+    templateUrl: './main-index.component.html'
 
 })
 export class AppComponent {
